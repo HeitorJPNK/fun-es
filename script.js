@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você ganhou um ingresso para um show de Metal Anânico",
+        enunciado: "Você está explorando uma floresta e encotra dois caminhos. Por qual caminho você decide ir?",
         alternativas: [
             {
-                texto: "Eu vou, sem sombra de dúvidas.",
-                afirmacao: "Você valoriza a companhia dos amigos e sabe como se divertir em grupo."
+                texto: "Labirinto.",
+                afirmacao: "Você encontra um Minotauro e o derrota"
             },
             {
-                texto: "Aproveito e passo no Trip Burguer (Antigo Pancho Vina).",
-                afirmacao: "Você gosta de fast-food."
+                texto: "Estrada Limpa.",
+                afirmacao: "Você encontra um mercador e compra dele uma poção de invisibilidade."
             }
         ]
     },
     {
-        enunciado: "Nas férias de Dezembro você decide:",
+        enunciado: "Ao decorrer do tempo, você decide escolher seu equipamento principal. Qual equipamento você escolhe?:",
         alternativas: [
             {
-                texto: "Jogar Minecraft com os amigos.",
-                afirmacao: "Você gosta de jogar videogame."
+                texto: "Machado.",
+                afirmacao: "Você é um guerreiro de poucas palavras e apenas deseja acabar com o seu inimigo em apenas um golpe."
             },
             {
-                texto: "Fazer um curso rápido para aprender algo novo.",
-                afirmacao: "Você gosta de estudar."
+                texto: "Espada Longa.",
+                afirmacao: "Você é um guerreiro ágil e consistente, derrota seus inimigos com golpes rápidos e precisos."
             }
         ]
     },
     {
-        enunciado: "Vocẽ encontrou uma carteira cheia de dinheiro no meio da rua, o que você faz?",
+        enunciado: "Você encontra um grupo de Goblins. O que você faz?",
         alternativas: [
             {
-                texto: "Guardo e entrego para a polícia",
-                afirmacao: "Você é uma pessoa honesta."
+                texto: "Me escondo em uma pedra e espero a poeira abaixar.",
+                afirmacao: "Você é um guerreiro medroso e não gosta muito de desafios."
             },
             {
-                texto: "Gasto todo o dinheiro.",
-                afirmacao: "Você é um pnc."
+                texto: "Espero a hora certa para atacar e tento acabar com todos.",
+                afirmacao: "Você é um guerreiro corajoso e acredita em seu potencial."
             }
         ]
     },
     {
-        enunciado: "Você tem a chance de sair com seus amigos, para onde você vai?",
+        enunciado: "Você se repousa em uma taverna. Chegando lá você tem duas opções de bebida, qual vocẽ escolhe?:",
         alternativas: [
             {
-                texto: "Garimpo de Rock do Centro!",
-                afirmacao: "Vocẽ gosta de comprar roupas e descobrir novas coisas."
+                texto: "Hidromel Caseiro!",
+                afirmacao: "Você tem um gosto adocicado para bebidas alcoólicas e não gosta de nada muito amargo."
             },
             {
-                texto: "Soberano Dog.",
-                afirmacao: "A quantidade de alimento está acima de sua qualidade, portanto você é uma pessoa que gosta de um alimento gorduroso."
+                texto: "Touro Louco (Cerveja caseira da Casa).",
+                afirmacao: "Você tem um gosto arretado para bebidas alcoólicas e gosta de bebidas consistentes."
             }
         ]
     },
     {
-        enunciado: "Você está navegando no 4chan, o que você faz?",
+        enunciado: "Ao final de sua jornada, você se depara com um grande dragão. O que você faz?",
         alternativas: [
             {
-                texto: "Compartilho com meus amigos para eles verem as notícias e postagens .",
-                afirmacao: "Você gosta de compartilhar coisas com os outros."
+                texto: "Tento fazer amizade com ele.",
+                afirmacao: "O dragão o dilacera vivo."
             },
             {
-                texto: "Posto algo novo na rede.",
-                afirmacao: "Você gosta de escrever e postar diferentes tipos de assuntos na internet."
+                texto: "Decido enfrentar a aberração.",
+                afirmacao: "Você termina sua jornada como um verdadeiro herói."
             }
         ]
     }
